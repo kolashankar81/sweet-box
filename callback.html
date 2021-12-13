@@ -1,0 +1,13 @@
+<script>
+function func1(x,cbf){
+     
+     console.log("Iam f1");
+     console.log(x);
+     cbf();
+     
+}
+function func2(){
+     console.log("Iam f2 as a argument ");
+}
+func1("hello",func2);
+</script>
